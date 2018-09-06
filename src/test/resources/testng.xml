@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Learning">
+
+	<!--<listeners>-->
+		<!--<listener class-name="com.emma2.errorcollectors.TestListenerAdapter" />-->
+	<!--</listeners>-->
+	<listeners>
+		<listener class-name="com.emma2.util.ExtentReportNg" />
+	</listeners>
+
+
+	<test name="Login test">
+		<classes>
+			<class name="com.emma2.testcases.loginTest"></class>
+		</classes>
+	</test>
+
+
+</suite>
